@@ -1,5 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import '@fontsource/roboto';              // normal
+import '@fontsource/roboto/300.css';      // light
+import '@fontsource/roboto/400.css';      // regular
+import '@fontsource/roboto/500.css';      // medium
+import '@fontsource/roboto/700.css';      // bold
+
 import './index.css'
 import App from './App.jsx'
 

@@ -1,10 +1,57 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
-
+body{
+  font-family: 'Roboto', sans-serif!important;
+}
+::placeholder {
+  font-size: 13px;
+  font-style: italic;
+  opacity: 0.7;
+  font-weight: 400;
+}
+.form-control{
+  font-size: 13px;
+}
+.bg-blue{
+  /* background: linear-gradient(to right, #0073BB, #6f42c1); */
+  /* background: linear-gradient(to bottom, #0073BB, #6f42c1) */
+  /* background: linear-gradient(135deg, #0073BB, #6f42c1); */
+  background: linear-gradient(135deg, #0073BB, #6f42c1, #ff6ec4);
+}
+.bg-yellow{
+  background-color: #F8B944;
+  background: #F8B944;
+}
+.bg-pink{
+  background-color: #E23BCD;
+  background: #E23BCD;
+}
+.bg-purple{
+  background-color: #0073BB;
+  background: #0073BB;
+}
+.servicesgrid{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.servicesgrid .col-sm-4{
+  padding-left: 0;
+  padding-right: 0;
+}
+.servicesgrid .card{
+  height: 30vh;
+  line-height: 1.5;
+}
+.servicesgrid .card .card-title{
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  height: 10vh;
+}
+.servicesgrid .card p{
+  font-weight: 200;
+  color: #fff!important;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +86,168 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.courses-section{
+  background-color: aliceblue;
+  text-align: center;
+}
+.courses-section .card .card-header, .courses-section .card .card-footer{
+  background-color: unset;
+  border-bottom: unset!important;
+  border-top: unset!important;
+}
+.courses-section h4{
+  line-height: 1.5;
+  font-weight: 500;
+  /* text-transform: uppercase; */
+}
+.courses-section .card{
+  border: none;
+}
+.courses-section .card .card-body h5{
+  line-height: 1.5;
+  font-weight: 400;
+}
+.courses-section .card .card-body p{
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.testimonial-section{
+  
+} 
+.testimonial-section h4{
+  text-align: center;
+  font-weight: 500;
+}   
+
+/* Grid Container */
+.testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+/* Card */
+.testimonial-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Profile */
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.profile h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.profile span {
+  font-size: 14px;
+  color: gray;
+}
+
+.testimonial-text {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Login CSS */
+.login-screen{
+
+}
+.login-box{
+  background: linear-gradient(135deg, #0073BB, #6f42c1, #ff6ec4);
+  height: 100%;
+  border-radius: 15%;
+}
+.login-screen .card{
+  border: none;
+  text-align: center;
+  height: 100%;
+  border-radius: 0;
+}
+.login-screen .card .card-body{
+  border: none;
+}
+.login-left-screen{
+
+}
+.login-left-screen h1{
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-top: 20px;
+  
+}
+.login-left-screen hr{
+  width: 15%;
+  text-align: center;
+  margin: 0 auto;
+}
+.login-dash {
+  background: linear-gradient(135deg, #0073BB, #6f42c1, #ff6ec4);
+  width: 20%;
+  height: 3.5px;
+  margin: 0 auto;
+}
+.login-right-screen{
+  border-radius: 0;
+  text-align: left!important;
+}
+.login-right-screen .form-group{
+  /* width: 70%; */
+  border-radius: 0;
+  margin-bottom: 10px;
+}
+.login-right-screen .form-group .form-control{
+  border-radius: 0;
+}
+.login-right-screen .form-group label{
+  font-weight: 400;
+}
+.login-form{
+  width: 70%;
+  margin: 0 auto;
+}
+.login-form h4{
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.login-form .form-group label{
+  font-weight: 400;
+  font-size: 14px;
+}
+.login-form .form-group .form-control{
+  /* */
+}
+.login-form p{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.rememberme ,.termsandconditions{
+  display: flex;
+}
+.rememberme input{
+  
 }
